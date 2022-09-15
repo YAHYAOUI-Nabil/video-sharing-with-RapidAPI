@@ -12,8 +12,18 @@ const Feed = () => {
           Copyright © 2022 NABIL YAHYAOUI
         </Typography>
       </Box>
-      <Box sx={{height: {sx: 'auto', md:'92vh'}}}>
-        <Typography></Typography>
+
+      <Box p={2} sx={{height: {sx: 'auto', md:'92vh'}, flex:2, overflowY: 'auto'}}>
+        <Typography 
+          variant='h4'
+          fontWeight='bold'
+          mb={2}
+          sx={{color: 'white'}}>
+            
+            New <span style={{color: '#F31503'}}>
+            videos
+          </span>
+        </Typography>
         <Videos />
       </Box>
     </Stack>
