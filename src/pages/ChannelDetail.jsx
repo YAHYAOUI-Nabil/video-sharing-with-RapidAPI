@@ -13,7 +13,7 @@ const ChannelDetail = () => {
 
   useEffect(() => {
     const fetchResults = async () => {
-      const data = await fetchData(`channels?part=snippet%statistics&id=${id}`);
+      const data = await fetchData(`channels?part=snippet&id=${id}`);
       console.log(data)
       setChannelDetail(data?.items[0]);
 
