@@ -19,13 +19,14 @@
 | react-player | 2.10.1 |
 | HTML5    |   |
 | CSS3   |   |
+| RapidApi | |
 
 
 
 ## 2. Installation <a name="heading--2"/>
 
 ```
-git clone https://github.com/YAHYAOUI-Nabil/Memories.git
+git clone https://github.com/YAHYAOUI-Nabil/video-sharing-with-RapidAPI.git
 npm install
 npm start
 ```
@@ -36,8 +37,5 @@ npm start
 
 Landing Page
 
-![Memories-landing-page](https://user-images.githubusercontent.com/57776529/194755365-91ffc776-39d9-42eb-9992-043682f632b1.png)
+![Video-Sharing](https://user-images.githubusercontent.com/57776529/194760666-3ec43936-58ee-4199-b515-c1533798d620.png)
 
-Authentication Page
-
-![Memories-auth](https://user-images.githubusercontent.com/57776529/194755357-b5f43960-8774-4f5e-8a4b-d67e78261ccc.png)
